@@ -106,14 +106,14 @@
         <div class="formContainer">
             <form action="">
                 <div class="middleRow">
-                    <input type="text" placeholder="Nombre completo" class="inputName">
-                    <input type="mail" placeholder="Dirección de email" class="inputName">
+                    <input type="text" name="name" placeholder="Nombre completo" class="inputName" required>
+                    <input type="email" name="email" placeholder="Dirección de email" class="inputName">
                 </div>
                 <div class="formRows">
                     <input type="text" placeholder="Tema..." class="fullInput">
                 </div>
                 <div class="formRows">
-                    <textarea name="" id="" placeholder="Ingresa tu mensaje" class="fullInput" rows="10" cols="30"></textarea>
+                    <textarea name="message" id="message" placeholder="Ingresa tu mensaje" class="fullInput" rows="10" cols="30" required></textarea>
                 </div>
                 
                 <input type="submit" value="Enviar" class="send-button">
