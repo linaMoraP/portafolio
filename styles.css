@@ -68,6 +68,21 @@
     transform: scale(1.5);
 }
 
+/* modo oscuro y claro */
+#toggle{
+    display: none;
+} 
+#label_toggle{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.dark{
+    background-color: black;
+    color: #CCCCFF;
+    transition: all 1.2s ease;
+}
+
 /* empezamos con el contenido principal */
 #main .content .introduction{
     max-width: 1100px;
