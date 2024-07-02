@@ -155,6 +155,30 @@
     color: #3a0a5e;
     margin-bottom: 12px;
 }
+/* animacion palabras */
+.animation{
+    position: relative;
+}
+.animation::before{
+    content: "mi empatia";
+    color: #9400d3;
+    animation: words 20s infinite;
+}
+@keyframes words {
+    0%,20%{
+        content: "mi liderazgo";
+    }
+    21%,40%{
+        content: "mi puntualidad";
+    }
+    41%,60%{
+        content: "mi buen desempeño";
+    }
+    61%,80%{
+        content: "mi responsabilidad";
+    }
+}
+/* boton enviame un mensaje */
 #aboutMe .aboutMe a{
     display: inline-block;
     text-decoration: none;
